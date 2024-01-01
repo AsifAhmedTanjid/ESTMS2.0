@@ -52,16 +52,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="EF\ESTMSContext.cs" />
+    <Compile Include="EF\Models\User.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Migrations\202401010443150_InitializeDBWithUserTableAdded.cs" />
+    <Compile Include="Migrations\202401010443150_InitializeDBWithUserTableAdded.designer.cs">
+      <DependentUpon>202401010443150_InitializeDBWithUserTableAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EF\Models\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repos\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202401010443150_InitializeDBWithUserTableAdded.resx">
+      <DependentUpon>202401010443150_InitializeDBWithUserTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -4,3 +4,11 @@ D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.AssemblyReferen
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.dll
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.pdb
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\DAL.dll.config
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\EntityFramework.dll
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\EntityFramework.xml
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.Migrations.InitializeDBWithUserTableAdded.resources
+D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
