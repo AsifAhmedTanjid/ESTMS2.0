@@ -68,3 +68,4 @@ D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CopyCom
 D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
 D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
 D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.teamTable.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.TournamentAndTournamentdetailsTableAdded.resources

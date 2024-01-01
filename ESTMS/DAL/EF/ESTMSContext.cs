@@ -5,7 +5,6 @@ using System.Data.Entity;
 using System.Linq;
 using System.Runtime.Remoting.Lifetime;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace DAL.EF
@@ -21,9 +20,10 @@ namespace DAL.EF
         public DbSet<Organization> Organizations { get; set; }
         public DbSet<Team> Teams { get; set; }
 
+        public DbSet<Tournament> Tournaments { get; set; }
 
+        public DbSet<TournamentTeamDetail> TournamentTeamDetails { get; set; }
 
-
-
+        public DbSet<Match> Matches { get; set; }
     }
 }
