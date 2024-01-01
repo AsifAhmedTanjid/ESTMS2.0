@@ -41,5 +41,9 @@ namespace DAL
         {
             return new OrganizationRepo();
         }
+        public static IRepo<Team, int, Team> TeamData()
+        {
+            return new TeamRepo();
+        }
     }
 }

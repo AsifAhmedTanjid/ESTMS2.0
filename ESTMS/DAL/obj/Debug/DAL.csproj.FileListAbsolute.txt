@@ -48,3 +48,23 @@ C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.gametableadded.resources
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.organizationfileadded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.dll.config
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.dll
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.pdb
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.dll
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.xml
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.InitializeDBWithUserTableAdded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.PlayerTableAdded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.SponsorTableAdded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.gametableadded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.organizationfileadded.resources
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
+D:\AIUB COURSE NOTES\SEM 1 Final\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.teamTable.resources

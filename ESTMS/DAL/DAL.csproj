@@ -59,6 +59,7 @@
     <Compile Include="EF\Models\Organizer.cs" />
     <Compile Include="EF\Models\Player.cs" />
     <Compile Include="EF\Models\Sponsor.cs" />
+    <Compile Include="EF\Models\Team.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
@@ -86,6 +87,10 @@
     <Compile Include="Migrations\202401010640152_organizationfileadded.designer.cs">
       <DependentUpon>202401010640152_organizationfileadded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401010703397_teamTable.cs" />
+    <Compile Include="Migrations\202401010703397_teamTable.designer.cs">
+      <DependentUpon>202401010703397_teamTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\GameRepo.cs" />
@@ -94,6 +99,7 @@
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\SponsorRepo.cs" />
+    <Compile Include="Repos\TeamRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup />
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401010640152_organizationfileadded.resx">
       <DependentUpon>202401010640152_organizationfileadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401010703397_teamTable.resx">
+      <DependentUpon>202401010703397_teamTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
