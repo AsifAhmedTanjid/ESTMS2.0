@@ -47,3 +47,4 @@ C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.Copy
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
 C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.gametableadded.resources
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.organizationfileadded.resources

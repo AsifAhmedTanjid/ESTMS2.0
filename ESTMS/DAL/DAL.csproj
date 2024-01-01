@@ -55,6 +55,7 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\ESTMSContext.cs" />
     <Compile Include="EF\Models\Game.cs" />
+    <Compile Include="EF\Models\Organization.cs" />
     <Compile Include="EF\Models\Organizer.cs" />
     <Compile Include="EF\Models\Player.cs" />
     <Compile Include="EF\Models\Sponsor.cs" />
@@ -81,9 +82,14 @@
     <Compile Include="Migrations\202401010615591_gametableadded.designer.cs">
       <DependentUpon>202401010615591_gametableadded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401010640152_organizationfileadded.cs" />
+    <Compile Include="Migrations\202401010640152_organizationfileadded.designer.cs">
+      <DependentUpon>202401010640152_organizationfileadded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\GameRepo.cs" />
+    <Compile Include="Repos\OrganizationRepo.cs" />
     <Compile Include="Repos\OrganizerRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401010615591_gametableadded.resx">
       <DependentUpon>202401010615591_gametableadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401010640152_organizationfileadded.resx">
+      <DependentUpon>202401010640152_organizationfileadded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
