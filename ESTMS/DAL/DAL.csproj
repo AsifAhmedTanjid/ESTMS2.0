@@ -54,6 +54,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\ESTMSContext.cs" />
+    <Compile Include="EF\Models\Player.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
@@ -61,8 +62,13 @@
     <Compile Include="Migrations\202401010443150_InitializeDBWithUserTableAdded.designer.cs">
       <DependentUpon>202401010443150_InitializeDBWithUserTableAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401010511514_PlayerTableAdded.cs" />
+    <Compile Include="Migrations\202401010511514_PlayerTableAdded.designer.cs">
+      <DependentUpon>202401010511514_PlayerTableAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
@@ -74,6 +80,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202401010443150_InitializeDBWithUserTableAdded.resx">
       <DependentUpon>202401010443150_InitializeDBWithUserTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401010511514_PlayerTableAdded.resx">
+      <DependentUpon>202401010511514_PlayerTableAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

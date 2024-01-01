@@ -12,3 +12,18 @@ D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.Migrations.InitializeDBWithUserTableAdded.resources
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.InitializeDBWithUserTableAdded.resources
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.PlayerTableAdded.resources

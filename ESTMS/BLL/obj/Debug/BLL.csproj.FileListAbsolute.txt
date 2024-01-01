@@ -12,3 +12,17 @@ D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\BLL\bin\Debug\EntityFramework.dll
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\BLL\bin\Debug\DAL.dll.config
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\BLL\bin\Debug\AutoMapper.xml
 D:\AIUB COURSE NOTES\SEM 131 .NET\ESTMS\BLL\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\BLL.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\BLL.pdb
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\AutoMapper.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.dll.config
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\AutoMapper.xml
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.dll
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.pdb
