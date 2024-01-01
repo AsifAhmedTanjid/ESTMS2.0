@@ -32,6 +32,10 @@ namespace DAL
         public static IRepo<Sponsor, int, Sponsor> SponsorData()
         {
             return new SponsorRepo();
+        }        
+        public static IRepo<Game, int, Game> GameData()
+        {
+            return new GameRepo();
         }
     }
 }

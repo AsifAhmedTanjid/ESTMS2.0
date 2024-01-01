@@ -26,3 +26,17 @@ C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CoreCompileInp
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.dll
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.pdb
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\BLL.pdb
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\DAL.dll.config
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\ASP dot net\ESTMS2.0\ESTMS\BLL\obj\Debug\BLL.pdb
