@@ -56,6 +56,7 @@
     <Compile Include="EF\ESTMSContext.cs" />
     <Compile Include="EF\Models\Organizer.cs" />
     <Compile Include="EF\Models\Player.cs" />
+    <Compile Include="EF\Models\Sponsor.cs" />
     <Compile Include="EF\Models\User.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
@@ -71,11 +72,16 @@
     <Compile Include="Migrations\202401010533060_OrganizerTableAdded.designer.cs">
       <DependentUpon>202401010533060_OrganizerTableAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401010542367_SponsorTableAdded.cs" />
+    <Compile Include="Migrations\202401010542367_SponsorTableAdded.designer.cs">
+      <DependentUpon>202401010542367_SponsorTableAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\OrganizerRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\SponsorRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup />
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401010533060_OrganizerTableAdded.resx">
       <DependentUpon>202401010533060_OrganizerTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401010542367_SponsorTableAdded.resx">
+      <DependentUpon>202401010542367_SponsorTableAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

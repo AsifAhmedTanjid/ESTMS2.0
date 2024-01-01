@@ -28,5 +28,10 @@ namespace DAL
         {
             return new OrganizerRepo();
         }
+
+        public static IRepo<Sponsor, int, Sponsor> SponsorData()
+        {
+            return new SponsorRepo();
+        }
     }
 }
