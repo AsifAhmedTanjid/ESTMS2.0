@@ -27,3 +27,4 @@ C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.dll
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.pdb
 C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.PlayerTableAdded.resources
+C:\Users\HP\Desktop\ESTMS\ESTMS2.0\ESTMS\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources

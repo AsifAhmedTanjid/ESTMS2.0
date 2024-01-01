@@ -23,5 +23,10 @@ namespace DAL
         {
             return new PlayerRepo();
         }
+
+        public static IRepo<Organizer, int, Organizer> OrganizerData()
+        {
+            return new OrganizerRepo();
+        }
     }
 }
