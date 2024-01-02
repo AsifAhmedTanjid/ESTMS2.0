@@ -66,5 +66,18 @@ namespace DAL
         {
             return new MatchRepo();
         }
+        public static IRepo<TeamDetail, int, TeamDetail> TeamDetailData()
+        {
+            return new TeamDetailRepo();
+        }
+
+        public static ITournament<Tournament> TournamentFilterData()
+        {
+            return new TournamentRepo();
+        }
+        public static ITournamentTeamStat<TournamentTeamDetail, int> TournamentTeamStatData()
+        {
+            return new TournamentTeamDetailRepo();
+        }
     }
 }

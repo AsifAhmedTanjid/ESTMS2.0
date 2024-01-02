@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TournamentTeamDetailRepo : Repo, IRepo<TournamentTeamDetail, int, TournamentTeamDetail>
+    internal class TournamentTeamDetailRepo : Repo, IRepo<TournamentTeamDetail, int, TournamentTeamDetail>, ITournamentTeamStat<TournamentTeamDetail, int>
     {
         public TournamentTeamDetail Add(TournamentTeamDetail obj)
         {
@@ -40,6 +40,11 @@ namespace DAL.Repos
             db.Entry(ex).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0) return obj;
             else return null;
+        }
+        public List<TournamentTeamDetail> Stat(int id)
+        {
+            var data = db.TournamentTeamDetails.Where(tt => tt.TournamentId == id).ToList();
+            return data;
         }
     }
 }

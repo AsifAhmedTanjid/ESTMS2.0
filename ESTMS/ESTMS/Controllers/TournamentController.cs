@@ -118,5 +118,68 @@ namespace ESTMS.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = ex.Message });
             }
         }
+
+        [HttpGet]
+        [Route("api/tournaments/ongoing")]
+        public HttpResponseMessage Ongoing()
+        {
+            try
+            {
+                var data = TournamentService.Ongoing();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = ex.Message });
+            }
+        }
+        [HttpGet]
+        [Route("api/tournaments/upcoming")]
+        public HttpResponseMessage Upcoming()
+        {
+            try
+            {
+                var data = TournamentService.Upcoming();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("api/tournaments/registrationopen")]
+        public HttpResponseMessage RegistrationOpen()
+        {
+            try
+            {
+                var data = TournamentService.RegistrationOpen();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("api/tournaments/stat/{id}")]
+        public HttpResponseMessage Stat(int id)
+        {
+            try
+            {
+                var data = TournamentService.Stat(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { message = ex.Message });
+            }
+        }
     }
 }

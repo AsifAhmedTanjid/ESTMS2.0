@@ -96,5 +96,84 @@ namespace BLL.Services
 
         }
 
+        public static List<TournamentDTO> Ongoing()
+        {
+
+            var data = DataAccessFactory.TournamentFilterData().Ongoing();
+            var cfg = new MapperConfiguration(c => {
+
+                c.CreateMap<Tournament, TournamentDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<List<TournamentDTO>>(data);
+            return mapped;
+
+        }
+        public static List<TournamentDTO> Upcoming()
+        {
+
+            var data = DataAccessFactory.TournamentFilterData().Upcoming();
+            var cfg = new MapperConfiguration(c => {
+                // c.CreateMap<Tournament, TournamentSearchDTO>();
+                c.CreateMap<Tournament, TournamentDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<List<TournamentDTO>>(data);
+            return mapped;
+
+        }
+        public static List<TournamentDTO> RegistrationOpen()
+        {
+
+            var data = DataAccessFactory.TournamentFilterData().RegistrationOpen();
+            var cfg = new MapperConfiguration(c => {
+
+                c.CreateMap<Tournament, TournamentDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<List<TournamentDTO>>(data);
+            return mapped;
+
+        }
+
+
+        public static TournamentStatDTO Stat(int id)
+        {
+            var data = DataAccessFactory.TournamentTeamStatData().Stat(id);
+            var cfg = new MapperConfiguration(c => {
+
+                c.CreateMap<Tournament, TournamentDTO>();
+                c.CreateMap<TournamentTeamDetail, TournamentTeamDetailDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<List<TournamentTeamDetailDTO>>(data);
+
+            int TotalTeam = 0;
+
+            if (mapped != null) { TotalTeam = mapped.Count(); }
+
+            var data1 = DataAccessFactory.TournamentData().Get(id);
+            var cfg1 = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Tournament, TournamentDTO>();
+            });
+            var mapper1 = new Mapper(cfg);
+            var mapped1 = mapper.Map<TournamentDTO>(data1);
+
+            int prizepool = mapped1.PrizePool;
+            int registrationfee = mapped1.RegistrationFee;
+            int totalcollectedfee = TotalTeam * registrationfee;
+
+            var stats = new TournamentStatDTO
+            {
+                RegisteredTeam = TotalTeam,
+                PrizePool = prizepool,
+                RegistrationFee = registrationfee,
+                TotalCollectedFee = totalcollectedfee
+
+            };
+            return stats;
+        }
+
     }
 }

@@ -53,10 +53,12 @@
     <Compile Include="DTOs\OrganizerDTO.cs" />
     <Compile Include="DTOs\PlayerDTO.cs" />
     <Compile Include="DTOs\SponsorDTO.cs" />
+    <Compile Include="DTOs\TeamDetailDTO.cs" />
     <Compile Include="DTOs\TeamDTO.cs" />
     <Compile Include="DTOs\TournamentDTO.cs" />
     <Compile Include="DTOs\TournamentMatchDTO.cs" />
     <Compile Include="DTOs\TournamentSearchDTO.cs" />
+    <Compile Include="DTOs\TournamentStatDTO.cs" />
     <Compile Include="DTOs\TournamentTeamDetailDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="Services\OrganizerService.cs" />
     <Compile Include="Services\PlayerService.cs" />
     <Compile Include="Services\SponsorService.cs" />
+    <Compile Include="Services\TeamDetailService.cs" />
     <Compile Include="Services\TeamService.cs" />
     <Compile Include="Services\TournamentService.cs" />
     <Compile Include="Services\TournamentTeamDetailService.cs" />

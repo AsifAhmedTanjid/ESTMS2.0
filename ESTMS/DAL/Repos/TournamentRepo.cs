@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TournamentRepo : Repo, IRepo<Tournament, int, Tournament>,ITournamentSearch<Tournament,string>
+    internal class TournamentRepo : Repo, IRepo<Tournament, int, Tournament>,ITournamentSearch<Tournament,string>, ITournament<Tournament>
     {
         public Tournament Add(Tournament obj)
         {
@@ -46,6 +46,23 @@ namespace DAL.Repos
             db.Entry(ex).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0) return obj;
             else return null;
+        }
+
+        public List<Tournament> Ongoing()
+        {
+            var filteredData = db.Tournaments.Where(t => t.StartDate < DateTime.Now && t.EndDate > DateTime.Now).ToList();
+            return filteredData;
+        }
+
+        public List<Tournament> RegistrationOpen()
+        {
+            var filteredData = db.Tournaments.Where(t => t.RegistrationOpenDate < DateTime.Now && t.RegistrationCloseDate > DateTime.Now).ToList();
+            return filteredData;
+        }
+        public List<Tournament> Upcoming()
+        {
+            var filteredData = db.Tournaments.Where(t => t.RegistrationOpenDate > DateTime.Now).ToList();
+            return filteredData;
         }
     }
 }
